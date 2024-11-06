@@ -21,6 +21,14 @@ public class Rectangle implements Figure{
         else this.height = height;
     }
 
+    public double getWidth (){
+        return this.width;
+    }
+
+    public double getHeight(){
+        return this.height;
+    }
+
     public Rectangle(double width, double height) throws HeightException, WidthException {
             setHeight(height);
             setWidth(width);

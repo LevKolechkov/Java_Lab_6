@@ -15,6 +15,10 @@ public class Circle implements Figure {
         setRadius(radius);
     }
 
+    public double getRadius (){
+        return this.radius;
+    }
+
     public double area() {
         return 3.14 * this.radius * this.radius;
     }
